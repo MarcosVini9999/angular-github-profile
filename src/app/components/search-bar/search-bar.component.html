@@ -1,0 +1,7 @@
+<form class="form" (submit)="onSubmit($event)">
+  <input type="text" placeholder="Inform Username" required />
+  <button type="submit">search</button>
+  <p *ngIf="notFound">
+    Sorry, could not find the user, verify the name and try again
+  </p>
+</form>
