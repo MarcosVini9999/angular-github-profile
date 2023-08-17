@@ -1,2 +1,2 @@
-<app-search-bar></app-search-bar>
-<app-profile></app-profile>
+<app-search-bar (newItemEvent)="getUser($event)"></app-search-bar>
+<app-profile [user]="user"></app-profile>
